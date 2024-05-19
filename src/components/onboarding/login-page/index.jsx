@@ -10,7 +10,7 @@ const LoginPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add login logic here
-    alert('Login successful!, Congratulations! Vishal Bhaiya!!!');
+    alert('Congratulations! Vishal Bhaiya!!!');
     console.log('Email:', email);
     console.log('Password:', password);
   };
