@@ -1,12 +1,14 @@
 import './App.css'
-import LoginPage from './components/onboarding/login-page/index.jsx'
+import AikkaLogin from './components/onboarding/aikka-login'
+// import LoginPage from './components/onboarding/login-page/index.jsx'
 
 function App() {
 
   return (
     <>
      <div>
-      <LoginPage />
+      {/* <LoginPage /> */}
+      <AikkaLogin/>
     </div>
      </>
   )

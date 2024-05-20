@@ -1,0 +1,64 @@
+.accountWrapper{
+    width: 80vw;
+    margin: auto;
+    margin-top: 60px;
+    background: gray;
+      height: 80vh;
+  }
+  
+  .accountContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  
+  /* login page styles */
+  .welcomeText{
+    /* text-align: center; */
+    font-size: 91px !important;
+    font-weight: bold !important;
+  
+  }
+  .logoImage{
+    text-align: center;
+    width: 100%;
+  }
+  .textAfterLogo{
+    color: #003473;
+      text-align: center;
+      padding: 20px;
+      font-size: 23px !important;
+      font-weight: bold !important;
+  }
+  .formWrapper{
+    max-width: 400px !important;
+    margin: auto !important;
+  }
+  .continueButton{
+    max-width: 250px !important;
+  }
+  .accountHeading{
+    color: #003473;
+      text-align: center;
+      width: 100%;
+      
+  }
+  .searchInput{
+    width: 100%;
+  }
+  .accountCards{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .companyNameText{
+    text-align: center;
+    color: #003473 !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+  }
